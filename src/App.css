@@ -1,0 +1,23 @@
+#root {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.lined {
+  text-decoration: overline;
+}
+
+.verticalUL{
+  display: flex;
+  flex-direction: row-reverse; /* 横方向に要素を配置 */
+  flex-wrap: nowrap; /* 必要に応じて折り返す */
+  max-height: 70vh; 
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: right;
+}
